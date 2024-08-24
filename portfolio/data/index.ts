@@ -6,7 +6,7 @@ const GRID_ITEMS = [
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[50vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "/Bento-Grid-Img-1.jpg",
         spareImg: "",
     },
     {
@@ -47,7 +47,7 @@ const GRID_ITEMS = [
         className: " md:col-span-3 md:row-span-4 lg:min-h-[30vh]",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/b5.svg",
+        img: `background-img-5.jpg`,
         spareImg: "/grid.svg",
     },
     {
@@ -69,4 +69,23 @@ const NAV_ITEMS = [
     { title: "Contact", linkHref: "#contact" },
 ];
 
-export { GRID_ITEMS, NAV_ITEMS }
+
+const TECH_STACK = [
+    'HTML/CSS',
+    'JavaScript',
+    'SASS',
+    'Tailwind CSS',
+    'React',
+    'Redux Toolkit',
+    'React Router',
+    'axios',
+    'Git',
+    'Express',
+    'MongoDB',
+    ""
+]
+export {
+    GRID_ITEMS,
+    NAV_ITEMS,
+    TECH_STACK
+}
