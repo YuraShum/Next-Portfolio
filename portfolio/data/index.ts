@@ -45,7 +45,7 @@ const GRID_ITEMS = [
         title: "Currently building a JS Animation library",
         description: "The Inside Scoop",
         className: " md:col-span-3 md:row-span-4 lg:min-h-[30vh]",
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+        imgClassName: "absolute right-0 bottom-0 md:w-full opacity-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
         img: `background-img-5.jpg`,
         spareImg: "/grid.svg",
