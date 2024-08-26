@@ -91,7 +91,7 @@ const PROJECTS = [
         id: 1,
         title: 'VanLife',
         description: 'This project serves as an initial template for a car rental program for travel.',
-        img: '/projectsImg/',
+        img: '/projectsImg/vanLife.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", '/technologies/rer.svg', "/technologies/css.png"],
         link: ''
     },
@@ -99,7 +99,7 @@ const PROJECTS = [
         id: 2,
         title: 'FitClub',
         description: 'This site serves as a landing page for the sports club, providing detailed information about tariffs and the team.',
-        img: '/projectsImg/',
+        img: '/projectsImg/fitClub.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/fm.svg"],
         link: ''
     },
@@ -107,7 +107,7 @@ const PROJECTS = [
         id: 3,
         title: 'BostonFanSite',
         description: 'This site was created with the help of pure CSS and HTML for basketball fans to get information about the club.',
-        img: '/projectsImg/',
+        img: '/projectsImg/fanSite.png',
         iconLists: ["/technologies/html.png", "/technologies/css.png",],
         link: ''
     },
@@ -115,7 +115,7 @@ const PROJECTS = [
         id: 4,
         title: 'Portfolio',
         description: 'The project, which displays the created projects, is used by SAP to add effects',
-        img: '/projectsImg/',
+        img: '/projectsImg/portfolio.png',
         iconLists: ["/technologies/js.svg", "/technologies/html.png", "/technologies/css.png", "/technologies/gsap.svg",],
         link: ''
     },
@@ -123,7 +123,7 @@ const PROJECTS = [
         id: 5,
         title: 'Movie',
         description: 'This service is designed to recommend and search for movies based on metadata analysis.',
-        img: '/projectsImg/',
+        img: '/projectsImg/movie.png',
         iconLists: ["/technologies/re.svg", "/technologies/js.svg", "/technologies/material-ui.svg", "/technologies/redux.svg",
             "/technologies/axios.png", "/technologies/formik.png", "/technologies/rer.svg", "/technologies/sass.png",
             "/technologies/node-js.svg", "/technologies/express.png", "/technologies/mongodb.svg",
@@ -134,7 +134,7 @@ const PROJECTS = [
         id: 6,
         title: 'EvoGym',
         description: 'This is an educational project in which a landing page for a sports club was created using Framer-motion for animation.',
-        img: '/projectsImg/',
+        img: '/projectsImg/evoGym.png',
         iconLists: ["/technologies/re.svg", "/technologies/ts.svg", "/technologies/tail.svg", "/technologies/fm.svg",
         ],
         link: ''
@@ -143,7 +143,7 @@ const PROJECTS = [
         id: 7,
         title: 'Note',
         description: 'A notepad for reminders with the ability to add, edit, read, and delete notes.',
-        img: '/projectsImg/',
+        img: '/projectsImg/note.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png", "/technologies/markdown.svg",],
         link: ''
     },
@@ -151,7 +151,7 @@ const PROJECTS = [
         id: 8,
         title: 'Gallery',
         description: 'Brochure for a travel company using technology (Tailwind CSS).',
-        img: '/projectsImg/',
+        img: '/projectsImg/travel.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png", '/technologies/tail.svg'],
         link: ''
     },
@@ -159,7 +159,7 @@ const PROJECTS = [
         id: 9,
         title: 'Quiz',
         description: 'The quiz is designed for learning with the possibility of advanced movement between tests.',
-        img: '/projectsImg/',
+        img: '/projectsImg/quiz.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png"],
         link: ''
     },
@@ -167,7 +167,7 @@ const PROJECTS = [
         id: 10,
         title: 'Chat',
         description: 'Online chat for communication between people in real time.',
-        img: '/projectsImg/',
+        img: '/projectsImg/chat.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/rer.svg", "/technologies/css.png",
             "/technologies/node-js.svg", "/technologies/express.png", "/technologies/soio.jpg"
         ],
