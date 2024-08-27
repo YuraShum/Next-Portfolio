@@ -62,14 +62,6 @@ const GRID_ITEMS = [
     },
 ];
 
-const NAV_ITEMS = [
-    { title: "About", linkHref: "#about" },
-    { title: "Projects", linkHref: "#projects" },
-    { title: "Testimonials", linkHref: "#testimonials" },
-    { title: "Contact", linkHref: "#contact" },
-];
-
-
 const TECH_STACK = [
     'HTML/CSS',
     'JavaScript',
@@ -174,9 +166,34 @@ const PROJECTS = [
         link: '/'
     },
 ]
+
+const NAV_CONFIG = [
+    {
+        name: 'Home',
+        link: ''
+    },
+    {
+        name: 'About',
+        link: '#about'
+    },
+    {
+        name: 'Projects',
+        link: '#projects'
+    },
+    {
+        name: 'Testimonials',
+        link: '#testimonials'
+    },
+    {
+        name: 'Contact',
+        link: '#contact'
+    },
+
+]
+
 export {
     GRID_ITEMS,
-    NAV_ITEMS,
     TECH_STACK,
-    PROJECTS
+    PROJECTS,
+    NAV_CONFIG
 }
