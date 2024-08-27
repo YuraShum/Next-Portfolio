@@ -93,7 +93,7 @@ const PROJECTS = [
         description: 'This project serves as an initial template for a car rental program for travel.',
         img: '/projectsImg/vanLife.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", '/technologies/rer.svg', "/technologies/css.png"],
-        link: ''
+        link: 'https://github.com/YuraShum/van-life'
     },
     {
         id: 2,
@@ -101,7 +101,7 @@ const PROJECTS = [
         description: 'This site serves as a landing page for the sports club, providing detailed information about tariffs and the team.',
         img: '/projectsImg/fitClub.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/fm.svg"],
-        link: ''
+        link: '/'
     },
     {
         id: 3,
@@ -109,7 +109,7 @@ const PROJECTS = [
         description: 'This site was created with the help of pure CSS and HTML for basketball fans to get information about the club.',
         img: '/projectsImg/fanSite.png',
         iconLists: ["/technologies/html.png", "/technologies/css.png",],
-        link: ''
+        link: 'https://github.com/YuraShum/Fan-site-Boston'
     },
     {
         id: 4,
@@ -117,7 +117,7 @@ const PROJECTS = [
         description: 'The project, which displays the created projects, is used by SAP to add effects',
         img: '/projectsImg/portfolio.png',
         iconLists: ["/technologies/js.svg", "/technologies/html.png", "/technologies/css.png", "/technologies/gsap.svg",],
-        link: ''
+        link: 'https://github.com/YuraShum/Project-slider'
     },
     {
         id: 5,
@@ -128,7 +128,7 @@ const PROJECTS = [
             "/technologies/axios.png", "/technologies/formik.png", "/technologies/rer.svg", "/technologies/sass.png",
             "/technologies/node-js.svg", "/technologies/express.png", "/technologies/mongodb.svg",
         ],
-        link: ''
+        link: '/'
     },
     {
         id: 6,
@@ -137,7 +137,7 @@ const PROJECTS = [
         img: '/projectsImg/evoGym.png',
         iconLists: ["/technologies/re.svg", "/technologies/ts.svg", "/technologies/tail.svg", "/technologies/fm.svg",
         ],
-        link: ''
+        link: 'https://github.com/YuraShum/EvoGym'
     },
     {
         id: 7,
@@ -145,7 +145,7 @@ const PROJECTS = [
         description: 'A notepad for reminders with the ability to add, edit, read, and delete notes.',
         img: '/projectsImg/note.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png", "/technologies/markdown.svg",],
-        link: ''
+        link: 'https://github.com/YuraShum/notes'
     },
     {
         id: 8,
@@ -153,7 +153,7 @@ const PROJECTS = [
         description: 'Brochure for a travel company using technology (Tailwind CSS).',
         img: '/projectsImg/travel.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png", '/technologies/tail.svg'],
-        link: ''
+        link: '/'
     },
     {
         id: 9,
@@ -161,7 +161,7 @@ const PROJECTS = [
         description: 'The quiz is designed for learning with the possibility of advanced movement between tests.',
         img: '/projectsImg/quiz.png',
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/sass.png"],
-        link: ''
+        link: 'https://github.com/YuraShum/Quiz-v2'
     },
     {
         id: 10,
@@ -171,7 +171,7 @@ const PROJECTS = [
         iconLists: ["/technologies/js.svg", "/technologies/re.svg", "/technologies/rer.svg", "/technologies/css.png",
             "/technologies/node-js.svg", "/technologies/express.png", "/technologies/soio.jpg"
         ],
-        link: ''
+        link: '/'
     },
 ]
 export {

@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'project-pattern': "url('/bg.jpg')",
+      },
       colors: {
         black: {
           DEFAULT: "#000",
