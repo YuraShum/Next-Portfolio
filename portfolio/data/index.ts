@@ -190,10 +190,97 @@ const NAV_CONFIG = [
     },
 
 ]
+const TESTIMONIALS = [
+    {
+        respond:
+            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        name: "Michael Johnson",
+        title: "Director of AlphaStream Technologies",
+        img: 'https://randomuser.me/api/portraits/men/32.jpg',
+    },
+    {
+        respond:
+            "Adrian's expertise transformed our digital presence. His attention to detail and dedication to quality are unmatched. He quickly adapted to our needs and delivered a polished product that exceeded our expectations.",
+        name: "Sarah Williams",
+        title: "CEO of TechWave Solutions",
+        img: 'https://randomuser.me/api/portraits/women/45.jpg',
+    },
+    {
+        respond:
+            "Working with Adrian has been a game-changer for our company. His strategic approach and innovative ideas brought our project to life in ways we couldn't have imagined. Highly recommended!",
+        name: "David Lee",
+        title: "Marketing Manager at InnovateNow",
+        img: 'https://randomuser.me/api/portraits/men/12.jpg',
+    },
+    {
+        respond:
+            "Adrian's work ethic and creativity set him apart from others in the field. His ability to communicate complex ideas in a simple way made the development process smooth and enjoyable.",
+        name: "Emily Davis",
+        title: "Founder of BrightSpace Media",
+        img: 'https://randomuser.me/api/portraits/women/28.jpg',
+    },
+    {
+        respond:
+            "I was impressed by Adrian's skill set and his genuine commitment to our project. His insights were invaluable, and his design work truly reflects our brand's vision.",
+        name: "John Smith",
+        title: "CTO of BlueTech Enterprises",
+        img: 'https://randomuser.me/api/portraits/men/25.jpg',
+    },
+    {
+        respond:
+            "Adrian brought our concept to life with precision and flair. His dedication to achieving the perfect result was evident in every detail of the project.",
+        name: "Linda Martinez",
+        title: "Product Manager at Digital Horizons",
+        img: 'https://randomuser.me/api/portraits/women/22.jpg',
+    },
+    {
+        respond:
+            "From start to finish, Adrian was a joy to work with. His professionalism, coupled with his creative input, ensured that our project was not only completed on time but also surpassed our expectations.",
+        name: "James Brown",
+        title: "Head of Operations at TechVista",
+        img: 'https://randomuser.me/api/portraits/men/34.jpg',
+    },
+    {
+        respond:
+            "Adrian's approach to problem-solving and his attention to design details made all the difference in our project. He went above and beyond to ensure we were satisfied with the outcome.",
+        name: "Sophia Taylor",
+        title: "Lead Designer at Creative Minds",
+        img: 'https://randomuser.me/api/portraits/women/35.jpg',
+    },
+    {
+        respond:
+            "Adrian is a rare find in the industry. His technical skills are complemented by his creativity and ability to listen to client needs, resulting in an outstanding end product.",
+        name: "Chris Wilson",
+        title: "Senior Developer at CodeStream",
+        img: 'https://randomuser.me/api/portraits/men/48.jpg',
+    },
+    {
+        respond:
+            "Adrian's professionalism, talent, and passion for his work were evident throughout our collaboration. He consistently delivered beyond our expectations, making him a valued partner.",
+        name: "Olivia Anderson",
+        title: "Marketing Director at Visionary Labs",
+        img: 'https://randomuser.me/api/portraits/women/50.jpg',
+    },
+    {
+        respond:
+            "Working with Adrian was a seamless experience. His deep knowledge of web development and design helped us create a product that not only looks great but also performs exceptionally.",
+        name: "Daniel Garcia",
+        title: "Business Owner at TechSavvy Solutions",
+        img: 'https://randomuser.me/api/portraits/men/52.jpg',
+    },
+    {
+        respond:
+            "Adrian exceeded our expectations with his innovative design and development skills. His ability to bring creative solutions to the table helped our brand stand out.",
+        name: "Mia Rodriguez",
+        title: "CEO of Cloud Nine Media",
+        img: 'https://randomuser.me/api/portraits/women/53.jpg',
+    },
+];
 
 export {
     GRID_ITEMS,
     TECH_STACK,
     PROJECTS,
-    NAV_CONFIG
+    NAV_CONFIG,
+    TESTIMONIALS
 }
