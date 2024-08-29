@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { HeroParallax } from "@/components/ui/HeroParallax";
+import WorkExperience from "@/components/WorkExperience";
 
 import { NAV_CONFIG, TESTIMONIALS } from "@/data";
 
@@ -19,7 +20,8 @@ export default function Home() {
         </div>
         <RecentProjects />
         <div className="max-w-7xl w-full">
-          <HeroParallax products={TESTIMONIALS} />;
+          <HeroParallax products={TESTIMONIALS} />
+          <WorkExperience/>
         </div>
       </div>
     </main>

@@ -277,10 +277,44 @@ const TESTIMONIALS = [
     },
 ];
 
+
+const WORK_EXPERIENCE = [
+    {
+        id: 1,
+        title: "Frontend Developer",
+        desc: "Developed and launched over 20 diverse web projects using React.js, showcasing creativity and technical expertise.",
+        className: "lg:col-span-2",
+        thumbnail: "/experience/exp1.svg",
+    },
+    {
+        id: 2,
+        title: "The full cycle of program creation (Full Stack Developer)",
+        desc: "Designed and developed a service for recommending and searching for movies based on metadata analysis.",
+        className: "lg:col-span-2",
+        thumbnail: "/experience/exp2.svg",
+    },
+    {
+        id: 3,
+        title: "Team Projects at the University",
+        desc: "Worked as a frontend developer in various team projects, focusing on building responsive and user-friendly interfaces.",
+        className: "lg:col-span-2",
+        thumbnail: "/experience/exp3.svg",
+    },
+    {
+        id: 4,
+        title: "Lead Frontend Developer in University Project",
+        desc: "Led communication with the client (professor) to gather requirements and ensure the project's alignment with expectations. Managed the frontend development, delivering a seamless user experience.",
+        className: "lg:col-span-2",
+        thumbnail: "/experience/exp4.svg",
+    },
+];
+
+
 export {
     GRID_ITEMS,
     TECH_STACK,
     PROJECTS,
     NAV_CONFIG,
-    TESTIMONIALS
+    TESTIMONIALS,
+    WORK_EXPERIENCE
 }
