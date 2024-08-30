@@ -4,7 +4,9 @@ import { GrProjects } from "react-icons/gr";
 import { MdLowPriority } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
 import { IconType } from "react-icons";
-import { ReactNode } from "react";
+import { IoMdMail } from "react-icons/io";
+import { BsTelegram } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 
 const GRID_ITEMS = [
@@ -324,6 +326,12 @@ interface ApproachItem {
     desc: string;
     icon: IconType;
 }
+interface SocialLink
+{
+    link: string;
+    icon: IconType
+}
+
 const APPROACH: ApproachItem[] = [
     {
         name: 'User-Centric Design',
@@ -347,6 +355,21 @@ const APPROACH: ApproachItem[] = [
     }
 ]
 
+const SOCIAL_LINK: SocialLink[] = [
+    {
+        link: 'https://github.com/YuraShum',
+        icon: FaGithub
+    },
+    {
+        link: 'https://t.me/shumel234',
+        icon: BsTelegram
+    },
+    {
+        link: 'mailto:yura.shumel@gmail.com',
+        icon: IoMdMail
+    },
+
+]
 
 export {
     GRID_ITEMS,
@@ -355,5 +378,6 @@ export {
     NAV_CONFIG,
     TESTIMONIALS,
     WORK_EXPERIENCE,
-    APPROACH
+    APPROACH,
+    SOCIAL_LINK
 }
