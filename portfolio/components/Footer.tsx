@@ -8,7 +8,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
     return (
-        <footer className='mt-10 h-fit w-[100vw] dark:bg-black-100 bg-white  dark:bg-grid-white/[0.04] bg-grid-black/[0.2] relative flex items-center justify-center bottom-0 left-0'>
+        <footer id='contact' className='mt-10 h-fit w-[100vw] dark:bg-black-100 bg-white  dark:bg-grid-white/[0.04] bg-grid-black/[0.2] relative flex items-center justify-center bottom-0 left-0'>
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_60%,transparent_60%)]"></div>
             <div className=' flex flex-col gap-20 justify-center mt-20'>
                 <div className='flex gap-10 md:gap-14 flex-col items-center p-4'>
