@@ -1,3 +1,12 @@
+
+import { FaUsersViewfinder } from "react-icons/fa6";
+import { GrProjects } from "react-icons/gr";
+import { MdLowPriority } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
+import { IconType } from "react-icons";
+import { ReactNode } from "react";
+
+
 const GRID_ITEMS = [
     {
         id: 1,
@@ -310,11 +319,41 @@ const WORK_EXPERIENCE = [
 ];
 
 
+interface ApproachItem {
+    name: string;
+    desc: string;
+    icon: IconType;
+}
+const APPROACH: ApproachItem[] = [
+    {
+        name: 'User-Centric Design',
+        desc: 'Focusing on the end-user experience, ensuring that each feature aligns with the needs and expectations of the target audience.',
+        icon: FaUsersViewfinder
+    },
+    {
+        name: 'Project Decomposition',
+        desc: 'Breaking down the project into smaller parts according to the architecture, allowing for more manageable development and easier debugging.',
+        icon: GrProjects
+    },
+    {
+        name: 'Task Prioritization',
+        desc: 'Addressing the core functionality first to ensure the primary objectives are met before adding additional features and enhancements.',
+        icon: MdLowPriority
+    },
+    {
+        name: 'Modern Technologies',
+        desc: 'Leveraging the latest tools and frameworks to build robust, scalable, and maintainable solutions.',
+        icon: GrTechnology
+    }
+]
+
+
 export {
     GRID_ITEMS,
     TECH_STACK,
     PROJECTS,
     NAV_CONFIG,
     TESTIMONIALS,
-    WORK_EXPERIENCE
+    WORK_EXPERIENCE,
+    APPROACH
 }

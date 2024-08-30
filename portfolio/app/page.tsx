@@ -1,3 +1,4 @@
+import { Approach} from "@/components/Approach";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -23,6 +24,7 @@ export default function Home() {
           <HeroParallax products={TESTIMONIALS} />
           <WorkExperience/>
         </div>
+        <Approach/>
       </div>
     </main>
   );
