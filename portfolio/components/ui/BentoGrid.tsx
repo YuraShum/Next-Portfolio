@@ -119,7 +119,9 @@ export const BentoGridItem = ({
                                 </span>
                             ))}
                         </div>)}
-                    {id === 2 && (<GlobeDemo />)}
+                    {id === 2 && (<div className="relative top-[10px] sm:top-0">
+                        <GlobeDemo />
+                    </div>)}
 
 
                     {id === 6 && (

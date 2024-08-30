@@ -26,7 +26,7 @@ const WorkExperience = (props: Props) => {
             </LampContainer>
             <div className="w-full mt-12 grid grid-cols-1 lg:grid-cols-4 gap-6 relative">
                 {WORK_EXPERIENCE.map((item) => (
-                    <Button key={item.title} className="p-5 flex gap-4 md:gap-6">
+                    <Button key={item.title} className="p-5 flex gap-4 md:gap-6 flex-col sm:flex-row ">
                         <div>
                             <img
                                 src={item.thumbnail}

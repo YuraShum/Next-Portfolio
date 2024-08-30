@@ -28,7 +28,7 @@ const Hero = (props: Props) => {
       </div>
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center gap-6' >
-          <h2 className='uppercase tracking-widest text-xl text-blue-100 '> Yurii Shumelchuk portfolio</h2>
+          <h2 className='uppercase tracking-widest text-xl text-blue-100 text-center'> Yurii Shumelchuk portfolio</h2>
           <TextGenerateEffect className='text-[50px] text-center' words={LABLE_TEXT} duration={1.2} />
           <VerticalTextAppearance text={DESCRIPTION}/>
           

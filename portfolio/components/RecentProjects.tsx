@@ -8,23 +8,23 @@ type Props = {}
 const RecentProjects = (props: Props) => {
   return (
     <div className='py-20' id='projects'>
-      <div className='heading'>
+      <div className='heading p-4'>
         <p>A small selection of</p>
         <span className='text-pink-200'>recent Projects</span>
       </div>
 
-      <div className='flex flex-wrap items-center justify-center p-4 gap-x-20 gap-y-4'>
+      <div className='flex flex-wrap items-center justify-center p-4 md:p-0 gap-x-20 gap-y-4'>
         {PROJECTS.map(({ id, title, description, img, iconLists, link }) => (
-          <div key={id} className='sm:h-[35rem] lg:min-h-[40rem] h-[35rem] flex items-center justify-center lg:min-w-[570px] sm:w-96 w-[90vw]'>
+          <div key={id} className='sm:h-[35rem] lg:min-h-[38rem] h-[30rem] flex items-center justify-center lg:min-w-[570px] sm:w-96 w-[90vw]'>
             <PinContainer title={title} href={link}>
-              <div className='relative flex items-center justify-center sm:w-96 w-[80vw] lg:min-w-[570px] overflow-hidden h-[27vh] lg:h-[35vh] '>
+              <div className='relative flex items-center justify-center sm:w-96 w-[80vw] lg:min-w-[470px] overflow-hidden h-[27vh] lg:h-[35vh] '>
                 <div className='relative w-full h-full overflow-hidden rounded-3lx'>
                   <img src="/bg.jpg" alt="background color img" />
                 </div>
                 <img src={img} alt={title} />
               </div>
               <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1 mt-2'>{title}</h1>
-              <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>{description}</p>
+              <p className='lg:text-lg lg:font-normal font-light text-sm line-clamp-2'>{description}</p>
               <div className='flex items-center justify-between mt-7 mb-3'>
                 <div className='flex items-center flex-wrap gap-2'>
                   {iconLists.map(icon => (
